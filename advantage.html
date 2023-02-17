@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XTravel - турагентство</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="ui-components-master/itc-slider/itc-slider.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="index.html"
+          ><img src="img/logo-header.svg" alt="logo" class="header-logo"
+        /></a>
+        <div class="links">
+          <a href="advantage.html" class="header-link"> Наши преимущества </a>
+          <a
+            href="#"
+            class="header-link"
+            onclick="window.scrollTo({
+                            top: 1000000000000000000110,  
+                            behavior: 'smooth' 
+                        })"
+          >
+            Контакты
+          </a>
+        </div>
+        <div class="buttons">
+          <form action="team.html" target="_blank">
+            <button class="button" id="card-button">
+              <span class="button-text"> О нас </span>
+            </button>
+          </form>
+        </div>
+      </header>
+    </div>
+
+    <!--container-->
+    <main class="main">
+      <div class="container">
+        <section class="advantage-list">
+          <div class="advantage__image-1"></div>
+          <div class="advantage__image-2"></div>
+          <div class="advantage__image-3"></div>
+          <div class="advantage-item-1">
+            <details class="accordion">
+              <summary class="accordion__control">
+                <p class="accordion__title"><b>Развлекательная программа</b></p>
+                <span class="accordion__icon"></span>
+              </summary>
+              <div class="accordion__content">
+                Искусственный интеллект, основываясь на ваших предпочтениях,
+                подберёт идеальный для вас досуг.
+              </div>
+            </details>
+          </div>
+
+          <div class="advantage-item-2">
+            <details class="accordion">
+              <summary class="accordion__control">
+                <p class="accordion__title"><b>Удобный сервис</b></p>
+                <span class="accordion__icon"></span>
+              </summary>
+              <div class="accordion__content">
+                Простой и понятный интерфейс, точный поиск с множеством
+                фильтров, широкое предложение и сотрудничество с ключевыми
+                партнерами. Подбор тура “под ключ”, включая авиабилеты,
+                проживание и оборудование.
+              </div>
+            </details>
+          </div>
+
+          <div class="advantage-item-3">
+            <details class="accordion">
+              <summary class="accordion__control">
+                <p class="accordion__title"><b>Открытая ценовая политика</b></p>
+                <span class="accordion__icon"></span>
+              </summary>
+              <div class="accordion__content">
+                Обновление цен и отсутствие скрытых платежей.
+              </div>
+            </details>
+          </div>
+        </section>
+      </div>
+      <!--/container-->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <a href="index.html"
+            ><img src="img/logo-header.svg" alt="logo" class="footer-logo"
+          /></a>
+          <nav class="footer-nav">
+            <a class="footer-link" href="team.html"> О нас </a>
+            <a
+              class="footer-link"
+              onclick="onclick"
+              ="window.scrollTo({
+              top: 1000000000000000000110,  
+              behavior: 'smooth' 
+          })"
+            >
+              Обратная связь
+            </a>
+            <a class="footer-link"> +7 905 048 57 91 </a>
+            <a href="mailto:xtravel_2022@mail.ru" class="footer-link">
+              xtravel_2022@mail.ru
+            </a>
+          </nav>
+          <div class="social-links">
+            <a href="https://t.me/XTravel_22" class="social-link">
+              <img src="img/Telegram_logo.svg" />
+            </a>
+            <a href="https://vk.com/public217511550" class="social-link">
+              <img src="img/Vk_logo.svg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="ui-components-master/itc-slider/itc-slider.js" defer></script>
+  </body>
+</html>

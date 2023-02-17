@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XTravel - турагентство</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="ui-components-master/itc-slider/itc-slider.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html"
+          ><img src="img/logo-header.svg" alt="logo" class="footer-logo"
+        /></a>
+        <div class="links-main">
+          <a href="advantage.html" class="header-link"> Наши преимущества </a>
+          <a
+            href="#"
+            class="header-link"
+            onclick="window.scrollTo({
+                            top: 1000000000000000000110,  
+                            behavior: 'smooth' 
+                        })"
+          >
+            Контакты
+          </a>
+          <a
+            href="#"
+            class="header-link"
+            onclick="window.scrollTo({
+            top: 1000000000000000000110,  
+            behavior: 'smooth' 
+        })"
+          >
+            Обратная связь
+          </a>
+        </div>
+        <div class="buttons">
+          <form action="team.html" target="_blank">
+            <button class="button" id="card-button">
+              <span class="button-text"> О нас </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!--container-->
+    <main class="main">
+      <div class="container">
+        <section src="img/rider.png" class="promo promo-img">
+          <h1 class="promo-title">
+            Подберём тур, о котором вы даже спросить боялись
+          </h1>
+        </section>
+        <button class="button-main" id="card-button">
+          <span
+            class="button-text-main"
+            onclick="alert('Тут будет новая страничка')"
+          >
+            <b> Искать туры </b>
+          </span>
+        </button>
+
+        <section class="description">
+          <div class="description-main">
+            <div class="description-item item_1">
+              <div class="descrition-text item_1-text">
+                Кто мы:<br />
+                <br />
+                Мы предлагаем удобный сервис по подбору маршрутов экстремального
+                туризма, <br />
+                путешествий и активного отдыха
+              </div>
+              <img
+                class="descrition-image item_1-image"
+                src="img/image-7.jpg"
+              />
+            </div>
+            <div class="description-item item_2">
+              <span class="descrition-text item_2-text">
+                Актуальность:<br />
+                <br />
+                Сервисы конкурентов неудобны либо отсутствуют вовсе. Подбор тура
+                вручную занимает много времени и не охватывает все
+                предложения</span
+              >
+              <img
+                class="descrition-image item_2-image"
+                src="img/image-8.jpg"
+              />
+            </div>
+            <div class="description-item item_3">
+              <span class="descrition-text item_3-text">
+                Удобство: <br />
+                <br />
+                Мы предлагаем услуги заказа не только экстримальных туров, но и
+                заселение в отели, перелёты, и подбор проффесиональных гидов
+              </span>
+              <img
+                class="descrition-image item_3-image"
+                src="img/image-9.png"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="swiper-scroller">
+          <div class="section-heading">
+            <h2 class="section-title">Популярные направления</h2>
+          </div>
+          <div class="itc-slider" data-slider="itc-slider">
+            <div class="itc-slider__wrapper">
+              <div class="itc-slider__items">
+                <div class="itc-slider__item">
+                  <img class="itc-slider__image" src="img/1.png" />
+                </div>
+                <div class="itc-slider__item">
+                  <img class="itc-slider__image" src="img/2.png" />
+                </div>
+                <div class="itc-slider__item">
+                  <img class="itc-slider__image" src="img/3.png" />
+                </div>
+                <div class="itc-slider__item">
+                  <img class="itc-slider__image" src="img/4.png" />
+                </div>
+                <div class="itc-slider__item">
+                  <img class="itc-slider__image" src="img/5.png" />
+                </div>
+                <div class="itc-slider__item">
+                  <img class="itc-slider__image" src="img/6.png" />
+                </div>
+              </div>
+            </div>
+            <button class="itc-slider__btn itc-slider__btn_prev"></button>
+            <button class="itc-slider__btn itc-slider__btn_next"></button>
+          </div>
+        </section>
+        <section class="connection">
+          <div class="connection-heading">
+            <h1 class="connection-title">Обратная связь</h1>
+            <a class="connection-sub-title">
+              Если у вас появились вопросы, свяжитесь с нами
+            </a>
+          </div>
+          <div class="connection-menu">
+            <div class="connection-menu-name">
+              <input
+                type="text"
+                class="input input-first-name"
+                placeholder="Имя"
+              />
+              <input
+                type="text"
+                class="input input-surname"
+                placeholder="Фамилия"
+              />
+            </div>
+            <div class="connection-menu-mail-phone">
+              <input
+                type="text"
+                class="input input-mail-phone"
+                placeholder="Email или телефон"
+              />
+            </div>
+            <div class="connection-menu-message">
+              <input
+                type="text"
+                class="input input-message"
+                placeholder="Оставьте ваше сообщение"
+              />
+            </div>
+          </div>
+          <div class="connection-button">
+            <button class="connection-button button-connection">
+              <span class="connection-button-text"> Отправить </span>
+            </button>
+          </div>
+        </section>
+      </div>
+      <!--/container-->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <a href="index.html"
+            ><img src="img/logo-header.svg" alt="logo" class="header-logo"
+          /></a>
+          <nav class="footer-nav">
+            <a class="footer-link" href="team.html"> О нас </a>
+            <a
+              class="footer-link"
+              onclick="onclick"
+              ="window.scrollTo({
+              top: 1000000000000000000110,  
+              behavior: 'smooth' 
+          })"
+            >
+              Обратная связь
+            </a>
+            <a class="footer-link"> +7 905 048 57 91 </a>
+            <a href="mailto:xtravel_2022@mail.ru" class="footer-link">
+              xtravel_2022@mail.ru
+            </a>
+          </nav>
+          <div class="social-links">
+            <a href="https://t.me/XTravel_22" class="social-link">
+              <img src="img/Telegram_logo.svg" />
+            </a>
+            <a href="https://vk.com/public217511550" class="social-link">
+              <img src="img/Vk_logo.svg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="ui-components-master/itc-slider/itc-slider.js" defer></script>
+  </body>
+</html>
